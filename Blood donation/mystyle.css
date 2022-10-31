@@ -1,0 +1,125 @@
+
+
+body.background_image_1 {
+  background-image: url(https://th.bing.com/th/id/OIP.DPHu0xwMaTTBc00sdR01ygHaFA?pid=ImgDet&rs=1);
+}
+
+h1, p, h2 {
+text-align: center;
+}
+
+.green {
+width: 80%;
+background-color:	#8B0000;
+color: #f5f6f7;
+margin-left: auto;
+margin-right: auto;
+font-family: "Garamond", serif;
+font-size: 17px;
+}
+
+label {
+   display: block;
+   margin: 0.5rem 0
+}
+
+/* putting the h1 and p on center from left */
+h1, p{
+margin: 1em auto;
+text-align: center;
+}
+
+
+form {
+margin: 0 auto;
+max-width: 500px;
+min-width: 400px;
+width: 70vw;
+padding-bottom: 40px;
+}
+
+
+fieldset {
+  border: none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #f5f6f7;
+
+}
+
+
+input, textarea, select{
+margin: 10px;
+width: 100%;
+margin-bottom: 0;
+margin-left: 0;
+margin-rigth: 0;
+}
+
+/* Aligning the checkboxes with the labels */
+/* Creating a class called .inline */
+.inline {
+width: unset;
+margin: 0 0.5em 0 0;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+/* _________________NEW CSS__________________________ */
+
+.main_menu_bar{
+  display: flex;
+  padding: 10px 40px;  
+  background-color: #8B0000;
+}
+.main_menu_bar li{
+  margin: 0 20px;
+  color: #fff;
+  list-style: none;
+}
+.main_menu_bar li a{
+  color: #fff;
+}
+
+.section_1{
+  padding: 60px 0;
+}
+.section_1 img{
+  width: 300px;
+}
+
+.section_2 img{
+  width: 60px;
+}
+
+.color_dark_red{
+  background-color: #8B0000;
+}
+.footer{
+  margin-top: 50px;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 1px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+
+  .section_2{
+    padding-left: 50px !important;
+  }
+  
+  .section_2 .row{
+    gap: 20px;
+  }
+  .main_menu_bar li {
+    margin: 0px 16px;
+  }
+
+}

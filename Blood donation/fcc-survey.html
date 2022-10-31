@@ -1,0 +1,99 @@
+<html>
+<!-- Survey Form -->
+
+<!DOCTYPE html>
+ 
+<!-- Declaring the language of content with lang attribute -->
+<html lang="en">
+<head>
+
+<!-- Adding a link to external css -->
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- meta tags can be added only in the head of the html file -->
+<meta charset="UTF-8" />
+
+<!-- Make a device friendly website -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+<!-- Remove if necessary -->
+<meta name="keywords" text="Petition">
+
+<!-- Title is not visible on the web page -->
+<title>Registration Form</title>
+</head>
+
+<!-- Displays content on the webpage -->
+<body class="background_image_1">
+
+    
+    <ul class="main_menu_bar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="fcc-survey.html">Registration </a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+
+
+
+<div class= "green">
+<header>
+<h1><strong>Bangalore Medical Service Trust</strong></h1>
+<p>Register today for blood donation drives.</p>
+</header>
+
+<!-- Will contain information about the form -->
+<main>
+<form>
+<fieldset>
+<legend>Your details</legend>
+<label>Enter your First Name: <input type="text" name="first-name"required /></label>
+<label>Enter your Last Name: <input type="text" name="last-name" required /></label>
+<label>Email: <input type="email" name:"g-mail" required /></label>
+<label>Create a Password: <input type="password" name="secret" pattern="[a-z0-5]{8,}" required /></label>
+</fieldset><br>
+
+<fieldset>
+<legend>Select Blood Group</legend>
+<label><input class="inline" type="radio" name="blood type" />O+</label>
+<label><input class="inline" type="radio" name="blood type" />O-</label>
+<label><input class="inline" type="radio" name="blood type"/>A+</label>
+<label><input class="inline" type="radio" name="blood type"/>B+</label>
+<label><input class="inline" type="radio" name="blood type"/>AB+</label>
+</fieldset><br>
+
+<fieldset>
+<legend>Additional Details</legend>
+<label>Upload your Aadhar Card: <input type="file" name="docs" /></label>
+<label>Enter your age (years):<input type="number" name="age" min="18" max="45" required /></label>
+<label>How did you hear about it?
+<select>
+<option value="">(select one)</option>
+<option value="1">India Today Newspaper</option>
+<option value="2">Karnataka News Channels</option>
+<option value="3">Friends or Family</option>
+<option value="4">Others</option>
+</select>
+<label><input class="inline" type="checkbox" name="terms" required /> I accept the terms and conditions.</label>
+</fieldset><br>
+<input type="submit" value="Submit">
+</form>
+</main>
+
+
+</div>
+
+
+
+<div class="footer color_dark_red">
+    <div class="container">
+        <p>
+            @ Copyright & Developed by Shivangi Dabriwal
+        </p>
+    </div>
+  </div>
+
+  
+</body>
+</html>
+ 
